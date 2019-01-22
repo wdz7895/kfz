@@ -1,0 +1,38 @@
+数据库名称：kfz
+
+后台管理员账号集合：adminList
+_id:"",
+admin_name:"管理员账号"
+admin_pwd:"管理员密码"
+admin_jsID:"管理员角色ID"
+admin_jsName:"管理员角色名称"
+
+后台管理员账号详情：adminOpt
+_id:""
+admin_ID:""
+admin_name:""
+admin_jsName:""
+admin_tx:"头像"
+admin_tel:""
+
+
+
+后台管理员日志集合:adminLog;
+_id:""
+admin_ID:"管理员ID"
+doTime:"操作时间"
+doSth:"操作内容"
+
+
+后台管理员角色集合： admin_jsList
+_id:""
+js_name:"角色名称"
+
+后台菜单栏集合 admin_menu
+_id:"",
+menu_name:"菜单名称"
+menu_jsID:"角色ID"
+chidren:{
+    menu_name:""
+    menu_url:""
+}
